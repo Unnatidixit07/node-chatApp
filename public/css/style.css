@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../images/bg1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    font-family:arial;
+    position:relative;
+    background-position: center;
+}
+
+#header {
+    position:relative;
+    font-family: cursive;
+    margin-top:20px;
+    margin-left: 800px;
+    
+    font-size: 30px;
+
+}
+
+#messages {
+    position:relative;
+    margin-top:70px;
+    margin-left: 800px;
+    font-size:20px;
+    padding-top: 0px;;
+}
+
+#message-form {
+    position:relative;
+    margin-top: 650px;
+    margin-left: 800px;
+    
+}
+
+#send-location {
+    position:relative;
+    margin-top: 10px;
+    margin-left: 850px;
+    font-size:15px;
+}
+
+.button{
+    background-color:rgb(68, 131, 105);
+    border-radius: 0 0 0 0;
+    border-style: none;
+    color: blanchedalmond;
+    padding: 3px 10px;
+    margin-left: 0;
+    height:30px;
+}
+
+.inputTag{
+    height:30px;
+    padding: 3px 10px;
+}
+
+button:hover {
+    background: #6b47b8;
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}

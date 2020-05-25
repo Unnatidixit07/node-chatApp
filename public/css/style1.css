@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    
+    background: url('../images/bg1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.button{
+    background-color:rgb(68, 131, 105);
+    border-radius: 0 0 0 0;
+    border-style: none;
+    color: blanchedalmond;
+    padding: 3px 10px;
+    margin-left: 0;
+    height:30px;
+}
+
+.inputTag{
+    height:30px;
+    padding: 3px 10px;
+    margin-bottom: 2px;;
+}
+
+button:hover {
+    background: #6b47b8;
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}
+
+.chat{
+    width:100%;
+    height:100%;
+     display: flex;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-form {
+    
+    width: 80vw;
+    height: 100vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    margin-bottom: 20px;;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.chat__sidebar {
+    height: 100vh;
+    color:black;
+    
+    width: 20vh;
+    overflow-y: scroll
+}
+.chat__main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    
+}
+.chat__messages {
+    flex-grow: 1;
+    padding: 24px 24px 0 24px;
+    overflow-y: scroll;
+}
+.compose {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 16px;
+    padding: 24px;
+}
+
+.compose form {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 16px;
+}
+
+.compose input {
+    border: 1px solid #eeeeee;
+    width: 100%;
+    padding: 12px;
+    margin: 0 16px 0 0;
+    flex-grow: 1;
+}
+
+.compose button {
+    font-size: 14px;
+}
+
+/* Chat Sidebar Styles */
+
+.room-title {
+    font-weight: 400;
+    font-size: 35px;
+    background: #6d6f77;
+    padding: 24px;   
+
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding: 12px 24px 0 24px;
+    font-size: 20px;
+    font-family:cursive ;
+}
+
+.users {
+    list-style-type: none;
+    font-weight: 300;
+    padding: 12px 24px 0 24px;
+    font-size: 20px;
+}
+
